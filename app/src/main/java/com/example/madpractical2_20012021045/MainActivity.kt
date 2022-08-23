@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
+
         Log.i(TAG, "onPause function called: ")
         Toast.makeText(this, "onPause function called:", Toast.LENGTH_SHORT).show()
         Snackbar.make(mycl,"onPause function called",Snackbar.LENGTH_LONG).show()
